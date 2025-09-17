@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import {stack} from 'expo-router';
-import Onglet from './bottom/onglet';
+import Onglet from './navigationbottom/onglet';
+import { NavigationContainer } from '@react-navigation/native';
 
 // import { View, Text, StyleSheet, Image } from '../assets/images/';
 
@@ -19,8 +20,10 @@ function Layout() {
         Je suis fier de ce que je fais et je suis fier d'être un bon developpeur react native.
         Que voulez-vous de moi?
       </Text>
-              
-      <Onglet />
+      
+        <Onglet/>
+        
+      
     </View>
   );
 }
