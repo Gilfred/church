@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
-import {stack} from 'expo-router';
+
 import Onglet from './navigationbottom/onglet';
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -33,9 +33,9 @@ const styles = StyleSheet.create({
     // flex: 1,
     justifyContent: 'center',
     // alignItems: 'center',
-    backgroundColor: 'green',
+    backgroundColor: 'blue',
     padding: 20, 
-    color: 'yellow',
+    color: 'white',
     fontSize: 20,
     marginLeft: 10,
     marginTop: 50,
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   mon_image:{
     width: 200,
     height: 200,
-    backgroundColor:'white',
+    backgroundColor:'black',
     marginLeft: 100,
     marginTop: 50,
   },
@@ -52,14 +52,14 @@ const styles = StyleSheet.create({
     backgroundColor:'green',
     fontSize: 15,
     fontStyle: 'italic',
-    marginTop: 50,
-    marginLeft: 10,
-    padding: 20,
+    marginTop: 70,
+    marginLeft: 30,
+    padding: 40,
     textAlign: 'center',
     transform: [{ rotate: '5deg' }],
     borderWidth: 2,
     // borderColor: 'yellow',
-    borderRadius: 10,
+    borderRadius: 20,
     shadowColor: 'black',
     shadowOffset: { width: 5, height: 5 },
   }

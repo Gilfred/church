@@ -12,7 +12,7 @@ function EcranFirst() {
             <Text>
                 ce texte est pour le home
             </Text>
-        </View>
+        </View> 
     );
 }
 
